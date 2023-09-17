@@ -1,0 +1,18 @@
+REGIONS
+
+AWS regions are the physical locations around the world where data centers are clustered. The group of logical data centers are called Availability zones. 
+Each Region consist of minimum of 3 Availability zones (AZs) which are isolated from each other. 
+AWS maintains multiple geographic Regions, including Regions in North America, South America, Europe, China, Asia Pacific, South Africa, and the Middle East.
+
+Availability Zones (AZs)
+
+AZ is a group of logical data centers present in a region. Each AZ has independent power, cooling, and physical security and is connected via redundant, ultra-low-latency networks.
+All AZs in an AWS Region are interconnected with high-bandwidth, low-latency networking. 
+All traffic between AZs is encrypted.
+AWS customers focused on high availability can design their applications to run in multiple AZs to achieve even greater fault-tolerance.
+AZs are physically separated by a meaningful distance, many kilometers, from any other AZ, although all are within 100 km (60 miles) of each other.
+
+Note: Currently there are 32 regions and 102 Availability zones.
+
+question: what is the purpose of having 3 AZ in each region?
+answer: Multiple AZs provide high availability so, if one AZ becomes down for some reason, the other AZ provide the service. 
